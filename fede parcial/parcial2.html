@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="skins/vector.png" nameid="Vector" id="vector" />
+        </div>
+        <div class="buttons">
+            <button>Login</button>
+            <button>Sign Up</button>
+        </div>
+    </header>
+    <div class="main">
+        <div class="container">
+            <div class="left">
+                <div class="carousel">
+                    <img src="skins/_image_2.png" nameid="image 2" id="_image_2" />
+                    <img src="skins/image_3.png" nameid="image 3" id="image_3" />
+                    <img src="skins/image_4.png" nameid="image 4" id="image_4" />
+                    <img src="skins/image_5.png" nameid="image 5" id="image_5" />
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <div class="right">
+                <div class="form-container">
+                    <div class="form-box">
+                        <h2 class="title">Lugar de llegada</h2>
+                        <input type="text" placeholder="DIRECCION">
+                        <div class="form-container">
+                            <div class="date-container">
+                                <input type="date" id="hasta" placeholder="Hasta">
+                            </div>
+                            <div class="date-container">
+                                <input type="date" id="desde" placeholder="Desde">
+                            </div>
+                            <input type="text" id="total" placeholder="Total">
+                        </div>
+                        <div class="form-container price-container">
+                            <button type="button" id="cancelar" class="login-button">CANCELAR</button>
+                            <button type="button" id="reservar" class="login-button">RESERVAR</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="document.js"></script>
+</body>
+</html>
